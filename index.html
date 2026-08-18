@@ -1,0 +1,123 @@
+---
+layout: default
+title: "Vietnam Golf Guide"
+description: "Plan golf in Vietnam — course directories for Hanoi, Da Nang and Ho Chi Minh City, stay & play guides and a free trip planner. Book tee times through Wingolf."
+og_type: website
+schema_type: WebSite
+---
+<section class="hero">
+  <div class="hero-bg"><img src="{{ '/assets/images/hero.svg' | relative_url }}" alt="Vietnam golf landscape" fetchpriority="high"></div>
+  <div class="hero-inner">
+    <p class="hero-kicker">Courses · Destinations · Trip Planning</p>
+    <h1>Discover Vietnam's best golf experiences</h1>
+    <p class="hero-lead">From the lake-side courses of Hanoi to the coastal links of Da Nang and the resort layouts of the south — everything you need to plan a golf trip in Vietnam, in one place.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="{{ '/golf-courses/' | relative_url }}">Explore golf courses</a>
+      <a class="btn btn-outline" href="{{ '/golf-trip-planner/' | relative_url }}">Plan a trip</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Destinations</p>
+      <h2>Explore by destination</h2>
+      <p>Three gateways cover most of Vietnam's golf. Each guide includes the best courses, travel times from the airport, when to play and how to book.</p>
+    </div>
+    <div class="grid grid-3">
+      <a class="dest-card" href="{{ '/golf-courses-hanoi/' | relative_url }}">
+        <div class="dest-art"><img src="{{ '/assets/images/art-hanoi.svg' | relative_url }}" alt="Hanoi golf illustration" loading="lazy"></div>
+        <div class="dest-body">
+          <h3>Hanoi &amp; the North</h3>
+          <p>Lakeside resorts, mountain courses and quick parkland rounds — 20+ courses within a two-hour drive of the capital.</p>
+          <span class="dest-link">Hanoi golf guide →</span>
+        </div>
+      </a>
+      <a class="dest-card" href="{{ '/da-nang-golf/' | relative_url }}">
+        <div class="dest-art"><img src="{{ '/assets/images/art-danang.svg' | relative_url }}" alt="Da Nang golf illustration" loading="lazy"></div>
+        <div class="dest-body">
+          <h3>Da Nang &amp; Central Coast</h3>
+          <p>Coastal links by Montgomerie, Nicklaus and Greg Norman, mountain golf at Ba Na Hills and the resorts of Hoi An and Hue.</p>
+          <span class="dest-link">Da Nang golf guide →</span>
+        </div>
+      </a>
+      <a class="dest-card" href="{{ '/ho-chi-minh-golf/' | relative_url }}">
+        <div class="dest-art"><img src="{{ '/assets/images/art-hcmc.svg' | relative_url }}" alt="Ho Chi Minh City golf illustration" loading="lazy"></div>
+        <div class="dest-body">
+          <h3>Ho Chi Minh City &amp; the South</h3>
+          <p>36-hole landmarks like VGCC and Tan Son Nhat, plus getaway resorts on the coast at Vung Tau, Nha Trang and Phu Quoc.</p>
+          <span class="dest-link">Saigon golf guide →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Course finder</p>
+      <h2>Find a course</h2>
+      <p>Filter the directory by region or destination. Every course links to current details and tee-time booking on Wingolf.</p>
+    </div>
+
+    <div id="course-finder" class="finder-bar">
+      <div class="field">
+        <label for="filter-region">Region</label>
+        <select id="filter-region">
+          <option value="">All regions</option>
+          <option value="north">Northern Vietnam</option>
+          <option value="central">Central Vietnam</option>
+          <option value="south">Southern Vietnam</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="filter-destination">Destination</label>
+        <select id="filter-destination"></select>
+      </div>
+    </div>
+
+    <p id="finder-count" class="finder-count"></p>
+    <p id="finder-empty" class="finder-empty hidden">No courses match — try a different filter.</p>
+    <div id="course-grid" class="finder-results grid grid-3">
+      {% for course in site.data.golf-courses %}
+        {% include course-card.html course=course %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Trip planning</p>
+      <h2>Plan your golf trip</h2>
+      <p>Two tools that turn a rough idea into a working itinerary.</p>
+    </div>
+    <div class="grid grid-2">
+      <div class="tool-panel">
+        <h3>Golf trip planner</h3>
+        <p class="muted" style="color:var(--muted)">Pick a destination, group size and number of rounds — get a suggested day-by-day itinerary in seconds.</p>
+        <a class="btn" href="{{ '/golf-trip-planner/' | relative_url }}">Build an itinerary</a>
+      </div>
+      <div class="tool-panel">
+        <h3>Corporate golf event checklist</h3>
+        <p class="muted" style="color:var(--muted)">A printable checklist for anyone planning a company golf day or tournament — from course selection to awards.</p>
+        <a class="btn" href="{{ '/corporate-golf-event/' | relative_url }}">Open the checklist</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Ready to book?</h2>
+        <p>Check live tee times, green fees and stay-and-play packages across Vietnam's best courses.</p>
+      </div>
+      <a class="btn btn-gold" href="{{ site.wingolf.homepage }}">Book on Wingolf</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">VG</span>
+      <span class="brand-text">
+        <span class="brand-name">Vietnam Golf Guide</span>
+        <span class="brand-tag">Courses · Destinations · Trip Planning</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <ul class="nav-list">
+        <li><a href="{{ '/golf-courses/' | relative_url }}" {% if page.nav_active == 'courses' %}class="active"{% endif %}>Golf Courses</a></li>
+        <li><a href="{{ '/golf-trip-planner/' | relative_url }}" {% if page.nav_active == 'planner' %}class="active"{% endif %}>Trip Planner</a></li>
+        <li><a href="{{ '/corporate-golf-event/' | relative_url }}" {% if page.nav_active == 'corporate' %}class="active"{% endif %}>Corporate</a></li>
+        <li><a href="{{ '/stay-and-play-vietnam/' | relative_url }}" {% if page.nav_active == 'stayplay' %}class="active"{% endif %}>Stay &amp; Play</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" {% if page.nav_active == 'about' %}class="active"{% endif %}>About</a></li>
+        <li><a class="nav-cta" href="{{ site.wingolf.homepage }}">Book on Wingolf</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

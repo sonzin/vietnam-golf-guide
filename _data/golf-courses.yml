@@ -1,0 +1,295 @@
+# Vietnam golf courses — reference dataset.
+# Source: wingolf.com.vn course research (draft/courses/*) + course schema on wingolf.com.vn.
+# Region values: north | central | south
+# distance = travel time/context from the nearest hub airport or city.
+
+# ------------------------- NORTHERN VIETNAM -------------------------
+- alias: brg-kings-island-golf-resort
+  name: BRG Kings Island Golf Resort
+  city: Son Tay, Hanoi
+  region: north
+  destination: Hanoi
+  distance: 45–55 min from Hanoi centre
+  holes: 55
+  style: Lakeside, parkland & championship
+  designer: Robert McFarland / Pacific Coast / Nicklaus II
+  green_fee: From ~2,900,000 VND
+  wingolf: true
+
+- alias: long-bien-golf-course
+  name: Long Bien Golf Course
+  city: Hanoi
+  region: north
+  destination: Hanoi
+  distance: 15–20 min from Hanoi centre
+  holes: 27
+  style: Parkland on the Red River
+  designer: —
+  green_fee: From ~2,600,000 VND
+  wingolf: true
+
+- alias: sky-lake-golf-resort
+  name: Sky Lake Golf & Resort
+  city: Chuong My, Hanoi
+  region: north
+  destination: Hanoi
+  distance: 45–60 min from Hanoi centre
+  holes: 36
+  style: Lake & sky course resort
+  designer: —
+  green_fee: From ~2,100,000 VND
+  wingolf: true
+
+- alias: chi-linh-star-golf-country-club
+  name: Chi Linh Star Golf & Country Club
+  city: Chi Linh, Hai Duong
+  region: north
+  destination: Hanoi
+  distance: 60–75 min from Hanoi centre
+  holes: 27
+  style: Mountain & valley
+  designer: —
+  green_fee: From ~1,830,000 VND
+  wingolf: true
+
+- alias: dai-lai-golf-club
+  name: Dai Lai Golf Club
+  city: Phuc Yen, Vinh Phuc
+  region: north
+  destination: Hanoi
+  distance: 55–70 min from Hanoi centre
+  holes: 27
+  style: Parkland by the lake
+  designer: Peter Wadell & Linksshape
+  green_fee: —
+  wingolf: true
+
+- alias: thanh-lanh-valley-golf-resort
+  name: Thanh Lanh Valley Golf & Resort
+  city: Binh Xuyen, Vinh Phuc
+  region: north
+  destination: Hanoi
+  distance: 75–90 min from Hanoi centre
+  holes: 18
+  style: Championship valley course
+  designer: —
+  green_fee: From ~2,100,000 VND
+  wingolf: true
+
+- alias: stone-highland-golf-resort
+  name: Stone Highland Golf & Resort
+  city: Viet Yen, Bac Giang
+  region: north
+  destination: Hanoi
+  distance: 80–90 min from Hanoi centre
+  holes: 36
+  style: Mountain course on rose-gold karst
+  designer: Brian Curley (Schmidt-Curley)
+  green_fee: From ~2,400,000 VND
+  wingolf: true
+
+- alias: tam-dao-golf-resort
+  name: Tam Dao Golf Resort
+  city: Tam Dao, Vinh Phuc
+  region: north
+  destination: Hanoi
+  distance: ~90 min from Hanoi centre
+  holes: 18
+  style: Mountain resort
+  designer: IMG
+  green_fee: —
+  wingolf: true
+
+- alias: legend-valley-country-club
+  name: Legend Valley Country Club
+  city: Ninh Binh
+  region: north
+  destination: Hanoi
+  distance: ~2 hours from Hanoi — combine with Ninh Binh
+  holes: 18
+  style: Valley & karst scenery
+  designer: —
+  green_fee: From ~2,950,000 VND
+  wingolf: true
+
+# ------------------------- CENTRAL VIETNAM -------------------------
+- alias: ba-na-hills-golf-club
+  name: Ba Na Hills Golf Club
+  city: Hoa Vang, Da Nang
+  region: central
+  destination: Da Nang
+  distance: 25–30 min from Da Nang airport
+  holes: 18
+  style: Mountain & jungle golf
+  designer: Luke Donald
+  green_fee: From ~2,750,000 VND
+  wingolf: true
+
+- alias: montgomerie-links-vietnam
+  name: Montgomerie Links Vietnam
+  city: Dien Ban, Quang Nam
+  region: central
+  destination: Da Nang
+  distance: 15–20 min from Da Nang airport
+  holes: 18
+  style: Coastal links-style
+  designer: Colin Montgomerie
+  green_fee: From ~2,280,000 VND
+  wingolf: true
+
+- alias: brg-legend-da-nang-golf-resort
+  name: BRG Legend Da Nang Golf Resort
+  city: Da Nang
+  region: central
+  destination: Da Nang
+  distance: 2 min from Montgomerie Links (1.3 km)
+  holes: 18
+  style: Dunes links — Golf Digest 100 Greatest
+  designer: Greg Norman
+  green_fee: —
+  wingolf: true
+
+- alias: hoiana-shores-golf-club
+  name: Hoiana Shores Golf Club
+  city: Duy Xuyen, Quang Nam
+  region: central
+  destination: Da Nang
+  distance: 45 min from Da Nang airport · 8 km from Hoi An
+  holes: 18
+  style: Coastal links — GEO Certified
+  designer: Robert Trent Jones Jr.
+  green_fee: From ~3,200,000 VND
+  wingolf: true
+
+- alias: laguna-lang-co-golf-course
+  name: Laguna Lang Co Golf Course
+  city: Lang Co, Hue
+  region: central
+  destination: Da Nang
+  distance: ~60 min from Da Nang airport
+  holes: 18
+  style: Rice field, sea & mountain resort
+  designer: Sir Nick Faldo
+  green_fee: From ~1,700,000 VND
+  wingolf: true
+
+- alias: kn-golf-links-cam-ranh
+  name: KN Golf Links Cam Ranh
+  city: Cam Ranh, Khanh Hoa
+  region: central
+  destination: Nha Trang
+  distance: 25 min from Cam Ranh airport
+  holes: 27
+  style: Links — Top 100 in the world
+  designer: Greg Norman
+  green_fee: —
+  wingolf: true
+
+# ------------------------- SOUTHERN VIETNAM -------------------------
+- alias: tan-son-nhat-golf-course
+  name: Tan Son Nhat Golf Course
+  city: Go Vap, Ho Chi Minh City
+  region: south
+  destination: Ho Chi Minh City
+  distance: 15–25 min from District 1
+  holes: 36
+  style: Parkland next to the airport
+  designer: Nelson & Haworth
+  green_fee: From ~1,900,000 VND
+  wingolf: true
+
+- alias: vietnam-golf-country-club
+  name: Vietnam Golf & Country Club
+  city: Thu Duc, Ho Chi Minh City
+  region: south
+  destination: Ho Chi Minh City
+  distance: 30–45 min from District 1
+  holes: 36
+  style: First 36-hole course in Vietnam
+  designer: Lee Trevino & Chen King Shih
+  green_fee: From ~2,290,000 VND
+  wingolf: true
+
+- alias: long-thanh-golf-resort
+  name: Long Thanh Golf Resort
+  city: Bien Hoa, Dong Nai
+  region: south
+  destination: Ho Chi Minh City
+  distance: 45–60 min from District 1
+  holes: 36
+  style: Valley & lake parkland
+  designer: Ron Fream
+  green_fee: —
+  wingolf: true
+
+- alias: song-be-golf-resort
+  name: Song Be Golf Resort
+  city: Thuan An, Binh Duong
+  region: south
+  destination: Ho Chi Minh City
+  distance: 40–55 min from District 1
+  holes: 27
+  style: Riverside parkland
+  designer: —
+  green_fee: From ~1,900,000 VND
+  wingolf: true
+
+- alias: twin-doves-golf-club
+  name: Twin Doves Golf Club
+  city: Thu Dau Mot, Binh Duong
+  region: south
+  destination: Ho Chi Minh City
+  distance: 45–60 min from District 1
+  holes: 27
+  style: Parkland
+  designer: —
+  green_fee: —
+  wingolf: true
+
+- alias: the-bluff-grand-ho-tram
+  name: The Bluffs Grand Ho Tram
+  city: Xuyen Moc, Ba Ria – Vung Tau
+  region: south
+  destination: Ho Chi Minh City
+  distance: ~2 hours from Ho Chi Minh City
+  holes: 18
+  style: Ocean links — World's Best New Course 2015
+  designer: Greg Norman
+  green_fee: From ~5,850,000 VND
+  wingolf: true
+
+- alias: paradise-golf-resort-vung-tau
+  name: Paradise Golf & Resort Vung Tau
+  city: Vung Tau
+  region: south
+  destination: Ho Chi Minh City
+  distance: ~2 hours from Ho Chi Minh City
+  holes: 27
+  style: Coastal parkland
+  designer: Taiwan Golf Corp
+  green_fee: —
+  wingolf: true
+
+- alias: dalat-palace-golf-club
+  name: Dalat Palace Golf Club
+  city: Da Lat, Lam Dong
+  region: south
+  destination: Da Lat
+  distance: Fly to Lien Khuong (30 min) or 6 hours' drive
+  holes: 18
+  style: Highland parkland — Vietnam's first course
+  designer: Historic French design (1923)
+  green_fee: —
+  wingolf: true
+
+- alias: eschuri-vung-bau-golf-course
+  name: Eschuri Vung Bau Golf Course
+  city: Phu Quoc, Kien Giang
+  region: south
+  destination: Phu Quoc
+  distance: On Phu Quoc island
+  holes: 18
+  style: Coastal jungle
+  designer: —
+  green_fee: From ~4,800,000 VND
+  wingolf: true

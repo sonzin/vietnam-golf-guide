@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ '/' | absolute_url }}#organization",
+      "name": "{{ site.title }}",
+      "url": "{{ '/' | absolute_url }}",
+      "description": "{{ site.description }}",
+      "sameAs": ["https://wingolf.com.vn/"]
+    }
+    {% if page.title %}
+    ,{
+      "@type": "{% if page.schema_type %}{{ page.schema_type }}{% else %}Article{% endif %}",
+      "@id": "{{ page.url | absolute_url }}#article",
+      "headline": "{{ page.title }}",
+      "description": "{{ page.description | default: site.description }}",
+      "image": "{{ '/assets/images/og-image.svg' | absolute_url }}",
+      "url": "{{ page.url | absolute_url }}",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" },
+      "publisher": { "@id": "{{ '/' | absolute_url }}#organization" },
+      "inLanguage": "{{ page.lang | default: 'en' }}",
+      "dateModified": "{{ page.last_modified | default: site.time | date_to_xmlschema }}"
+    }
+    {% endif %}
+    ,{
+      "@type": "BreadcrumbList",
+      "@id": "{{ page.url | absolute_url }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" }
+        {% if page.breadcrumb_1 %}
+        ,{ "@type": "ListItem", "position": 2, "name": "{{ page.breadcrumb_1.name }}", "item": "{{ page.breadcrumb_1.url | absolute_url }}" }
+        {% endif %}
+        {% if page.title %}
+        ,{ "@type": "ListItem", "position": {% if page.breadcrumb_1 %}3{% else %}2{% endif %}, "name": "{{ page.title }}", "item": "{{ page.url | absolute_url }}" }
+        {% endif %}
+      ]
+    }
+  ]
+}
+</script>

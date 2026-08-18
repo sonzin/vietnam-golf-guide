@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Vietnam Golf Guide — GitHub Pages configuration
+# ---------------------------------------------------------------------------
+# Before publishing, update `url` and `baseurl`:
+#   - Project site (repo: vietnam-golf-guide):
+#       url: "https://<username>.github.io"
+#       baseurl: /vietnam-golf-guide
+#   - User site (repo: <username>.github.io):
+#       url: "https://<username>.github.io"
+#       baseurl: ""
+# ---------------------------------------------------------------------------
+
+title: "Vietnam Golf Guide"
+tagline: "Courses, Destinations & Trip Planning"
+description: "Vietnam Golf Guide is a free resource for planning golf in Vietnam — course directories for Hanoi, Da Nang and Ho Chi Minh City, stay & play guides and trip planning tools."
+author: "Vietnam Golf Guide"
+lang: "en"
+
+url: "https://sonzin.github.io"
+baseurl: /vietnam-golf-guide
+
+# Wingolf — booking partner referenced throughout the site
+wingolf:
+  homepage: "https://wingolf.com.vn/"
+  courses: "https://wingolf.com.vn/san-golf/"
+  tours: "https://wingolf.com.vn/tour-golf/"
+  stay_play: "https://wingolf.com.vn/stay-play/"
+  stay_play_guide: "https://wingolf.com.vn/kien-thuc/stay-and-play-la-gi"
+  golf_event: "https://wingolf.com.vn/to-chuc-su-kien-golf-doanh-nghiep"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

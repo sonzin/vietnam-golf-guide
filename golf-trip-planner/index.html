@@ -1,0 +1,87 @@
+---
+layout: default
+title: "Golf Trip Planner Vietnam"
+description: "Build a Vietnam golf itinerary in seconds — choose a destination, group size, days and rounds, and get a suggested day-by-day plan with hotel and course picks."
+nav_active: planner
+js: /assets/js/planner.js
+schema_type: WebApplication
+---
+<div class="container">
+  <div class="page-hero">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span class="sep">/</span>Trip Planner</nav>
+    <h1>Vietnam Golf Trip Planner</h1>
+    <p>Choose a destination, your group and how many rounds you want to play. The planner suggests a realistic day-by-day itinerary built from real courses and honest transfer times.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="tool-panel">
+    <div class="grid grid-2" style="gap:0 24px">
+      <div>
+        <label for="pl-dest">Destination</label>
+        <select id="pl-dest">
+          <option value="Hanoi">Hanoi &amp; Northern Vietnam</option>
+          <option value="Da Nang" selected>Da Nang &amp; Central Coast</option>
+          <option value="Ho Chi Minh City">Ho Chi Minh City &amp; South</option>
+          <option value="Nha Trang">Nha Trang &amp; Cam Ranh</option>
+          <option value="Phu Quoc">Phu Quoc</option>
+        </select>
+
+        <label for="pl-days">Days</label>
+        <select id="pl-days">
+          <option value="2">2 days</option>
+          <option value="3" selected>3 days</option>
+          <option value="4">4 days</option>
+          <option value="5">5 days</option>
+          <option value="6">6 days</option>
+          <option value="7">7 days</option>
+        </select>
+
+        <label for="pl-hotel">Hotel standard</label>
+        <select id="pl-hotel">
+          <option value="3 star">3 star</option>
+          <option value="4 star" selected>4 star</option>
+          <option value="5 star">5 star</option>
+        </select>
+      </div>
+      <div>
+        <label for="pl-players">Golfers</label>
+        <select id="pl-players">
+          <option value="1">1 golfer</option>
+          <option value="2">2 golfers</option>
+          <option value="4" selected>4 golfers</option>
+          <option value="8">8 golfers</option>
+          <option value="16">16 golfers (tournament group)</option>
+        </select>
+
+        <label for="pl-rounds">Rounds</label>
+        <select id="pl-rounds">
+          <option value="1">1 round</option>
+          <option value="2" selected>2 rounds</option>
+          <option value="3">3 rounds</option>
+          <option value="4">4 rounds</option>
+          <option value="5">5 rounds</option>
+        </select>
+
+        <button id="pl-build" class="btn btn-gold" style="width:100%;margin-top:6px">Build my itinerary</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="pl-output" class="tool-output hidden">
+    <h2 class="subhead">Suggested itinerary</h2>
+    <p id="pl-summary" class="muted" style="color:var(--muted)"></p>
+    <ol id="pl-itinerary" class="itinerary"></ol>
+    <div id="pl-stats" class="stat-row"></div>
+    <div class="note">
+      <strong>This is a planning starting point, not a quote.</strong> Course availability, green fees and hotel prices change — confirm actual options before you commit.
+    </div>
+    <div class="cta-band" style="margin-top:24px">
+      <div>
+        <h2>Turn the plan into a booking</h2>
+        <p>Check actual packages, tee times and hotels for your dates on Wingolf.</p>
+      </div>
+      <a class="btn btn-gold" href="{{ site.wingolf.tours }}">Check packages on Wingolf</a>
+    </div>
+  </div>
+</div>

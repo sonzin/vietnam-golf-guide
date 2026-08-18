@@ -1,0 +1,16 @@
+{%- assign c = include.course -%}
+<article class="course-card" data-region="{{ c.region }}" data-destination="{{ c.destination | slugify }}">
+  <div class="course-card-body">
+    <h3 class="course-name">{{ c.name }}</h3>
+    <p class="course-loc">{{ c.city }}{% if c.distance %}<span class="dot" aria-hidden="true">·</span>{{ c.distance }}{% endif %}</p>
+    <ul class="course-facts">
+      {% if c.holes %}<li><span class="fact-key">Holes</span><span class="fact-val">{{ c.holes }}</span></li>{% endif %}
+      {% if c.style %}<li><span class="fact-key">Style</span><span class="fact-val">{{ c.style }}</span></li>{% endif %}
+      {% if c.designer %}<li><span class="fact-key">Designer</span><span class="fact-val">{{ c.designer }}</span></li>{% endif %}
+      {% if c.green_fee %}<li><span class="fact-key">Green fee</span><span class="fact-val">{{ c.green_fee }}</span></li>{% endif %}
+    </ul>
+    <div class="course-actions">
+      <a class="btn btn-ghost btn-sm" href="{{ site.wingolf.courses }}{{ c.alias }}" rel="noopener" target="_blank">Course details &amp; tee times</a>
+    </div>
+  </div>
+</article>

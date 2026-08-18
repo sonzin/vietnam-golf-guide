@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-label="Vietnam golf landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c3b2e"/>
+      <stop offset="1" stop-color="#175c47"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10493a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#b8912f" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8cf8f"/>
+      <stop offset="1" stop-color="#b8912f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky)"/>
+  <circle cx="1250" cy="170" r="180" fill="url(#sun)" opacity="0.5"/>
+  <circle cx="1250" cy="170" r="70" fill="#e8cf8f" opacity="0.85"/>
+  <!-- far mountains -->
+  <path d="M0 430 L220 250 L360 380 L520 210 L700 400 L880 260 L1040 410 L1200 230 L1380 390 L1600 260 L1600 700 L0 700 Z" fill="#14503f" opacity="0.85"/>
+  <!-- mid hills -->
+  <path d="M0 520 C 300 420 500 500 800 460 C 1100 420 1400 500 1600 440 L1600 700 L0 700 Z" fill="#0f4536"/>
+  <!-- fairway -->
+  <path d="M150 700 C 420 540 620 560 900 560 C 1200 560 1400 600 1600 560 L1600 700 L150 700 Z" fill="#2e7d55"/>
+  <!-- water -->
+  <path d="M900 560 C 1150 560 1400 600 1600 560 L1600 700 L900 700 Z" fill="#0b3b2e" opacity="0.55"/>
+  <!-- bunker -->
+  <ellipse cx="420" cy="622" rx="120" ry="26" fill="#d8cfb8" opacity="0.9"/>
+  <ellipse cx="420" cy="622" rx="120" ry="26" fill="none" stroke="#b8912f" stroke-width="2"/>
+  <!-- flag -->
+  <line x1="1040" y1="700" x2="1040" y2="470" stroke="#fff" stroke-width="4" opacity="0.9"/>
+  <path d="M1040 470 L1120 492 L1040 514 Z" fill="#b8912f"/>
+  <!-- tee pin -->
+  <circle cx="1040" cy="700" r="7" fill="#fff"/>
+  <!-- foreground grass -->
+  <path d="M0 700 L0 660 C 200 620 400 680 640 660 C 880 640 1100 690 1600 650 L1600 700 Z" fill="#1d211e" opacity="0.35"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vietnam Golf Guide favicon">
+  <rect width="64" height="64" rx="14" fill="#0c3b2e"/>
+  <circle cx="46" cy="20" r="9" fill="#e8cf8f" opacity="0.9"/>
+  <path d="M4 46 L18 24 L30 40 L42 20 L56 42 L60 38 L60 60 L4 60 Z" fill="#175c47"/>
+  <path d="M4 54 L16 44 L26 52 L36 44 L60 54 L60 60 L4 60 Z" fill="#2e7d55"/>
+  <line x1="26" y1="60" x2="26" y2="38" stroke="#fff" stroke-width="3"/>
+  <path d="M26 38 L38 43 L26 48 Z" fill="#b8912f"/>
+</svg>

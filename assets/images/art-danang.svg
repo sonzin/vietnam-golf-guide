@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img" aria-label="Da Nang golf">
+  <defs>
+    <linearGradient id="s2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c3b2e"/><stop offset="1" stop-color="#1d6a4f"/></linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#s2)"/>
+  <circle cx="70" cy="55" r="38" fill="#e8cf8f" opacity="0.75"/>
+  <path d="M0 160 C 140 90 260 120 400 80 L400 200 L0 200 Z" fill="#14503f"/>
+  <path d="M0 200 L0 150 C 90 130 140 165 220 160 C 300 155 350 170 400 140 L400 200 Z" fill="#3b8a63"/>
+  <path d="M0 200 L0 175 C 120 158 250 175 400 165 L400 200 Z" fill="#b8912f" opacity="0.55"/>
+  <line x1="110" y1="200" x2="110" y2="130" stroke="#fff" stroke-width="3"/>
+  <path d="M110 130 L158 143 L110 156 Z" fill="#b8912f"/>
+</svg>
