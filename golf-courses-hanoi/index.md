@@ -17,6 +17,11 @@ schema_type: Article
 </div>
 
 <div class="container">
+  <figure class="feature-img">
+    <img src="{{ '/assets/images/courses/sky-lake-golf-resort.webp' | relative_url }}" alt="Sky Lake Golf Resort — 36 holes on the western edge of Hanoi" loading="lazy">
+    <figcaption class="caption">Sky Lake — 36 holes on the western edge of Hanoi</figcaption>
+  </figure>
+
   <section class="prose">
     <h2 class="subhead">The courses, by travel time</h2>
     <p>Times below are driving from central Hanoi (Hoan Kiem / Ba Dinh) in normal traffic. Leave early on weekend mornings — popular courses book out fast.</p>
@@ -39,6 +44,17 @@ schema_type: Article
       </tbody>
     </table>
   </div>
+
+  <figure class="img-grid">
+    <figure>
+      <img src="{{ '/assets/images/courses/brg-kings-island-golf-resort.webp' | relative_url }}" alt="BRG Kings Island Golf Resort — lakeside courses on Dong Mo lake" loading="lazy">
+      <figcaption>BRG Kings Island — 55 holes reached by speedboat across Dong Mo lake</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/courses/stone-highland-golf-resort.webp' | relative_url }}" alt="Stone Highland Golf Resort — mountain course on rose-gold karst" loading="lazy">
+      <figcaption>Stone Highland — Brian Curley's mountain layout on rose-gold karst</figcaption>
+    </figure>
+  </figure>
 
   <section class="prose">
     <h2 class="subhead">The highlights</h2>

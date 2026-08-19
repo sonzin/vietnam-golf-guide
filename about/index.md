@@ -12,6 +12,13 @@ schema_type: AboutPage
   </div>
 </div>
 
+<div class="container">
+  <figure class="feature-img">
+    <img src="{{ '/assets/images/courses/montgomerie-links-vietnam.webp' | relative_url }}" alt="Montgomerie Links Vietnam — coastal golf on the Da Nang coast" loading="lazy">
+    <figcaption class="caption">Vietnam's coastal links — the reason travellers plan golf trips here</figcaption>
+  </figure>
+</div>
+
 <div class="container prose">
   <h2 class="subhead">What this site is for</h2>
   <p>Vietnam now has more than 90 golf courses and is one of Asia's best-value golf destinations. The catch is information: course details are scattered across operator sites, travel times are rarely stated honestly, and planning a multi-course trip takes hours of research.</p>

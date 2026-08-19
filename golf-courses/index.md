@@ -19,6 +19,13 @@ schema_type: CollectionPage
 {% assign region_meta = "Northern Vietnam|Central Vietnam|Southern Vietnam" | split: "|" %}
 
 <div class="container">
+  <figure class="feature-img">
+    <img src="{{ '/assets/images/courses/kn-golf-links-cam-ranh.webp' | relative_url }}" alt="KN Golf Links Cam Ranh — world-class links golf in Vietnam" loading="lazy">
+    <figcaption class="caption">From lakeside Hanoi resorts to Cam Ranh links — Vietnam's course range</figcaption>
+  </figure>
+</div>
+
+<div class="container">
   {% for region in regions %}
     {% assign idx = forloop.index0 %}
     {% assign label = region_meta[idx] %}

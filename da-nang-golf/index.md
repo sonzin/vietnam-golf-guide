@@ -17,6 +17,11 @@ schema_type: Article
 </div>
 
 <div class="container">
+  <figure class="feature-img">
+    <img src="{{ '/assets/images/courses/montgomerie-links-vietnam.webp' | relative_url }}" alt="Montgomerie Links Vietnam — coastal links golf in Da Nang" loading="lazy">
+    <figcaption class="caption">Montgomerie Links — Da Nang's most famous coastal layout</figcaption>
+  </figure>
+
   <section class="prose">
     <h2 class="subhead">The best courses in Da Nang</h2>
     <p>All courses below are 15–60 minutes from Da Nang International Airport (DAD), which has direct flights from Korea, Japan, Taiwan, Singapore, Thailand and China.</p>
@@ -36,6 +41,17 @@ schema_type: Article
       </tbody>
     </table>
   </div>
+
+  <figure class="img-grid">
+    <figure>
+      <img src="{{ '/assets/images/courses/ba-na-hills-golf-club.webp' | relative_url }}" alt="Ba Na Hills Golf Club — Luke Donald mountain design" loading="lazy">
+      <figcaption>Ba Na Hills — Luke Donald's mountain &amp; jungle layout</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/courses/hoiana-shores-golf-club.webp' | relative_url }}" alt="Hoiana Shores Golf Club near Hoi An" loading="lazy">
+      <figcaption>Hoiana Shores — Robert Trent Jones Jr. links beside Hoi An</figcaption>
+    </figure>
+  </figure>
 
   <section class="prose">
     <h2 class="subhead">Where to stay</h2>

@@ -13,6 +13,11 @@ schema_type: Article
 </div>
 
 <div class="container">
+  <figure class="feature-img">
+    <img src="{{ '/assets/images/courses/laguna-lang-co-golf-course.webp' | relative_url }}" alt="Laguna Lang Co — stay &amp; play golf resort between Da Nang and Hue" loading="lazy">
+    <figcaption class="caption">Laguna Lang Co — a full stay-and-play resort between Da Nang and Hue</figcaption>
+  </figure>
+
   <section class="prose">
     <h2 class="subhead">What is Stay &amp; Play?</h2>
     <p>Stay &amp; Play bundles golf tee times with resort or hotel accommodation into a single package — typically a set number of nights plus one or more rounds. It turns a booking puzzle (hotel here, golf there, transfers in between) into one price, one booking and one itinerary.</p>
@@ -34,6 +39,17 @@ schema_type: Article
       <li><strong>Groups and families</strong> mixing golf with resort time — pool, beach and a round in the same day.</li>
       <li><strong>Anyone staying at a golf resort anyway</strong> — if you're sleeping on-site, the package almost always beats paying per round.</li>
     </ul>
+
+  <figure class="img-grid">
+    <figure>
+      <img src="{{ '/assets/images/courses/brg-legend-da-nang-golf-resort.webp' | relative_url }}" alt="BRG Legend Da Nang Golf Resort — Greg Norman dunes links" loading="lazy">
+      <figcaption>BRG Legend Da Nang — resort golf on the dunes, 2 minutes from Montgomerie</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/courses/vinpearl-golf-nha-trang.webp' | relative_url }}" alt="Vinpearl Golf Nha Trang — island stay-and-play resort" loading="lazy">
+      <figcaption>Vinpearl Golf Nha Trang — an island resort where stay &amp; play is the point</figcaption>
+    </figure>
+  </figure>
 
     <h2 class="subhead">3D2N vs 4D3N — what's the difference?</h2>
     <p>The practical difference is rounds, not nights:</p>

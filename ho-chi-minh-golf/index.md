@@ -17,6 +17,11 @@ schema_type: Article
 </div>
 
 <div class="container">
+  <figure class="feature-img">
+    <img src="{{ '/assets/images/courses/vietnam-golf-country-club.webp' | relative_url }}" alt="Vietnam Golf &amp; Country Club — the first 36-hole club in Vietnam" loading="lazy">
+    <figcaption class="caption">Vietnam Golf &amp; Country Club — the first 36-hole club in Vietnam</figcaption>
+  </figure>
+
   <section class="prose">
     <h2 class="subhead">The courses, by travel time</h2>
     <p>Times are driving from District 1. Morning traffic is heavy — plan to leave before 07:00 for early tee times.</p>
@@ -38,6 +43,17 @@ schema_type: Article
       </tbody>
     </table>
   </div>
+
+  <figure class="img-grid">
+    <figure>
+      <img src="{{ '/assets/images/courses/tan-son-nhat-golf-course.webp' | relative_url }}" alt="Tan Son Nhat Golf Course beside the airport" loading="lazy">
+      <figcaption>Tan Son Nhat — 36 holes beside the runway, 15 minutes from downtown</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/courses/the-bluff-grand-ho-tram.webp' | relative_url }}" alt="The Bluffs Grand Ho Tram — Greg Norman ocean links" loading="lazy">
+      <figcaption>The Bluffs Ho Tram — Greg Norman's ocean links, 2 hours from Saigon</figcaption>
+    </figure>
+  </figure>
 
   <section class="prose">
     <h2 class="subhead">The highlights</h2>
