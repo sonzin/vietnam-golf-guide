@@ -1,7 +1,14 @@
 {%- assign c = include.course -%}
+{%- assign img_path = '/assets/images/courses/' | append: c.alias | append: '.webp' -%}
+{%- assign img = site.static_files | where: "path", img_path | first -%}
 <article class="course-card" data-region="{{ c.region }}" data-destination="{{ c.destination | slugify }}">
+  {% if img %}
+  <a class="course-thumb" href="{{ site.wingolf.courses }}{{ c.alias }}" rel="noopener" target="_blank" tabindex="-1" aria-hidden="true">
+    <img src="{{ img_path | relative_url }}" alt="{{ c.name }}" loading="lazy" width="1100" height="700">
+  </a>
+  {% endif %}
   <div class="course-card-body">
-    <h3 class="course-name">{{ c.name }}</h3>
+    <h3 class="course-name"><a href="{{ site.wingolf.courses }}{{ c.alias }}" rel="noopener" target="_blank">{{ c.name }}</a></h3>
     <p class="course-loc">{{ c.city }}{% if c.distance %}<span class="dot" aria-hidden="true">·</span>{{ c.distance }}{% endif %}</p>
     <ul class="course-facts">
       {% if c.holes %}<li><span class="fact-key">Holes</span><span class="fact-val">{{ c.holes }}</span></li>{% endif %}

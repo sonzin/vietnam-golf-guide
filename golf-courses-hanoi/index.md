@@ -32,7 +32,6 @@ schema_type: Article
         <tr><td><a href="{{ site.wingolf.courses }}brg-kings-island-golf-resort">BRG Kings Island Golf Resort</a></td><td>Son Tay, Hanoi</td><td>55</td><td>45–55 min</td><td>Lakeside + mountain + championship</td></tr>
         <tr><td><a href="{{ site.wingolf.courses }}sky-lake-golf-resort">Sky Lake Golf &amp; Resort</a></td><td>Chuong My, Hanoi</td><td>36</td><td>45–60 min</td><td>Lake resort</td></tr>
         <tr><td><a href="{{ site.wingolf.courses }}dai-lai-golf-club">Dai Lai Golf Club</a></td><td>Phuc Yen, Vinh Phuc</td><td>27</td><td>55–70 min</td><td>Parkland by the lake</td></tr>
-        <tr><td><a href="{{ site.wingolf.courses }}chi-linh-star-golf-country-club">Chi Linh Star Golf &amp; Country Club</a></td><td>Chi Linh, Hai Duong</td><td>27</td><td>60–75 min</td><td>Mountain &amp; valley</td></tr>
         <tr><td><a href="{{ site.wingolf.courses }}thanh-lanh-valley-golf-resort">Thanh Lanh Valley Golf &amp; Resort</a></td><td>Binh Xuyen, Vinh Phuc</td><td>18</td><td>75–90 min</td><td>Championship valley course</td></tr>
         <tr><td><a href="{{ site.wingolf.courses }}stone-highland-golf-resort">Stone Highland Golf &amp; Resort</a></td><td>Viet Yen, Bac Giang</td><td>36</td><td>80–90 min</td><td>Mountain on rose-gold karst</td></tr>
         <tr><td><a href="{{ site.wingolf.courses }}tam-dao-golf-resort">Tam Dao Golf Resort</a></td><td>Tam Dao, Vinh Phuc</td><td>18</td><td>~90 min</td><td>Mountain resort</td></tr>

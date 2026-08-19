@@ -40,18 +40,6 @@
   green_fee: From ~2,100,000 VND
   wingolf: true
 
-- alias: chi-linh-star-golf-country-club
-  name: Chi Linh Star Golf & Country Club
-  city: Chi Linh, Hai Duong
-  region: north
-  destination: Hanoi
-  distance: 60–75 min from Hanoi centre
-  holes: 27
-  style: Mountain & valley
-  designer: —
-  green_fee: From ~1,830,000 VND
-  wingolf: true
-
 - alias: dai-lai-golf-club
   name: Dai Lai Golf Club
   city: Phuc Yen, Vinh Phuc
@@ -104,12 +92,36 @@
   name: Legend Valley Country Club
   city: Ninh Binh
   region: north
-  destination: Hanoi
+  destination: Ninh Binh
   distance: ~2 hours from Hanoi — combine with Ninh Binh
   holes: 18
   style: Valley & karst scenery
   designer: —
   green_fee: From ~2,950,000 VND
+  wingolf: true
+
+- alias: royal-golf-course
+  name: Royal Golf Course
+  city: Tam Diep, Ninh Binh
+  region: north
+  destination: Ninh Binh
+  distance: ~2 hours from Hanoi — combine with Ninh Binh
+  holes: 54
+  style: Three-course resort complex
+  designer: —
+  green_fee: From ~1,550,000 VND
+  wingolf: true
+
+- alias: sono-felice-country-club-hai-phong
+  name: Sono Felice Country Club Hai Phong
+  city: Hai Phong
+  region: north
+  destination: Hanoi
+  distance: ~2 hours from Hanoi — high-speed ferry option
+  holes: 27
+  style: Parkland & lakes
+  designer: —
+  green_fee: From ~1,800,000 VND
   wingolf: true
 
 # ------------------------- CENTRAL VIETNAM -------------------------
@@ -182,6 +194,42 @@
   holes: 27
   style: Links — Top 100 in the world
   designer: Greg Norman
+  green_fee: —
+  wingolf: true
+
+- alias: diamond-bay-golf-club
+  name: Diamond Bay Golf Club
+  city: Nha Trang, Khanh Hoa
+  region: central
+  destination: Nha Trang
+  distance: 35 min from Cam Ranh airport
+  holes: 18
+  style: Coastal parkland — Vietnam's toughest par 72
+  designer: Andy Dye
+  green_fee: From ~2,600,000 VND
+  wingolf: true
+
+- alias: vinpearl-golf-nha-trang
+  name: Vinpearl Golf Nha Trang
+  city: Nha Trang, Khanh Hoa
+  region: central
+  destination: Nha Trang
+  distance: On Vinpearl Resort island — boat transfer from the mainland
+  holes: 18
+  style: Island resort course
+  designer: —
+  green_fee: From ~2,100,000 VND
+  wingolf: true
+
+- alias: pga-novaworld-phan-thiet-golf-club
+  name: PGA NovaWorld Phan Thiet
+  city: Phan Thiet, Binh Thuan
+  region: central
+  destination: Phan Thiet
+  distance: ~3 hours from Ho Chi Minh City or 30 min from Phan Thiet
+  holes: 36
+  style: Resort links
+  designer: —
   green_fee: —
   wingolf: true
 
@@ -292,4 +340,40 @@
   style: Coastal jungle
   designer: —
   green_fee: From ~4,800,000 VND
+  wingolf: true
+
+- alias: vinpearl-golf-phu-quoc
+  name: Vinpearl Golf Phu Quoc
+  city: Phu Quoc, Kien Giang
+  region: south
+  destination: Phu Quoc
+  distance: On Vinpearl Resort, ~25 min from Phu Quoc airport
+  holes: 18
+  style: Island resort course
+  designer: —
+  green_fee: From ~2,900,000 VND
+  wingolf: true
+
+- alias: sam-tuyen-lam-golf-resort
+  name: SAM Tuyen Lam Golf Resort
+  city: Da Lat, Lam Dong
+  region: south
+  destination: Da Lat
+  distance: ~30 min from Da Lat centre
+  holes: 18
+  style: Highland resort by the lake
+  designer: —
+  green_fee: From ~2,300,000 VND
+  wingolf: true
+
+- alias: the-dalat-at-1200-country-club
+  name: The Dalat at 1200 Country Club
+  city: Da Lat, Lam Dong
+  region: south
+  destination: Da Lat
+  distance: ~40 min from Da Lat centre
+  holes: 18
+  style: Mountain resort course
+  designer: —
+  green_fee: —
   wingolf: true

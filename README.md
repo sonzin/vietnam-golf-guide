@@ -13,6 +13,9 @@ Live demo (test): `https://<your-username>.github.io/vietnam-golf-guide/`
 | `/golf-courses-hanoi/` | Destination guide | Individual Hanoi courses |
 | `/da-nang-golf/` | Destination guide | Golf tours / Da Nang |
 | `/ho-chi-minh-golf/` | Destination guide | Individual HCMC courses |
+| `/nha-trang-golf/` | Destination guide | Nha Trang / Cam Ranh courses |
+| `/phu-quoc-golf/` | Destination guide | Phu Quoc packages |
+| `/dalat-golf/` | Destination guide | Da Lat courses |
 | `/stay-and-play-vietnam/` | Guide | Stay & Play packages + guide article |
 | `/golf-trip-planner/` | JS tool | Golf tours |
 | `/corporate-golf-event/` | JS tool | Corporate golf events |
@@ -87,7 +90,7 @@ vietnam-golf-guide/
 Add an entry to `_data/golf-courses.yml`. It automatically appears on the homepage finder and the `/golf-courses/` directory. Fields:
 
 ```yaml
-- alias: my-new-course      # = Wingolf course slug
+- alias: my-new-course      # = Wingolf course slug (must be live at wingolf.com.vn/san-golf/<alias>)
   name: My New Course
   city: Location, Province
   region: north             # north | central | south
@@ -99,6 +102,12 @@ Add an entry to `_data/golf-courses.yml`. It automatically appears on the homepa
   green_fee: From X VND
   wingolf: true
 ```
+
+Course card thumbnails load automatically from `assets/images/courses/<alias>.webp` — only courses with a file there get a photo.
+
+## Images
+
+Real course photography is downloaded from `wingolf.com.vn` (owned by Wingolf) and self-hosted in `assets/images/courses/` so the site never depends on hotlinking. Re-download/refresh images with `scripts/fetch-images.py` (see script header).
 
 ## Content updates
 
